@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  position: relative;
+  width:100vw;
+  height:100vh;
+  background-color:#F1F1F1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.start-container{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width:min(500px,90%);
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+h2{
+  font-size: max(min(32px, 4vw),22px);
+}
+input{
+  margin:20px 0 15px;
+  width:60%;
+  height:50px;
+  font-size: max(min(19px, 4vw),16px);
+  box-sizing: border-box;
+  padding:5px 15px;
+  border:0;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.start-btn{
+  width:40%;
+  aspect-ratio: 4/1;
+  border-radius:15px;
+  border:0;
+  background-color: #094f7d;
+  color:#fff;
+  font-size: max(min(19px, 4vw),16px);
+  font-weight: 600;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+  margin: 50px auto;
+  font-size: max(min(40px, 4vw),28px);
+}
+main{
+  display:flex;
+  width:min(1400px,90%);
+  margin:150px auto;
+}
+.guess-section{
+  display:flex;
+  flex-direction: column;
+  width:50%;
+  
+}
+.letter-btn{
+  width:10%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: max(min(24px, 3vw),17px);
+  background-color: #094f7d;
+  color:#fff;
+  border:0;
+  border-radius: 5px;
+}
+.letter-btn.wrong{
+  background-color:#b63645;
+  
+}
+.letter-btn.correct{
+  background-color:#18A558;
+  
+}
+.letter-btn.wrong:hover, .letter-btn.correct:hover{
+  opacity: 1;
+  cursor:default;
+}
+.letter-btn:hover{
+opacity: 0.8;
+}
+.letters-btn-container{
+  width:100%;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap:5px;
 }
-
-.App-link {
-  color: #61dafb;
+.guessWord{
+display:flex;
+justify-content: center;
+gap:max(min(34px, 3vw),27px);
+padding:50px 0 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.guessWord-letter{
+  font-size: max(min(34px, 3vw),27px);
+  width:30px;
+}
+.hangman-section{
+  width:50%;
+  display:flex;
+  justify-content: center;
+  position: relative;
+}
+.hangman-img{
+  width:70%;
+  position: absolute;
+  bottom:0;
 }
