@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/galgenraten/static/css/main.7d9c5500.css",
-    "main.js": "/galgenraten/static/js/main.8817e9ce.js",
-    "static/media/hangman9.svg": "/galgenraten/static/media/hangman9.5c9075f0ef2ef244d3b6.svg",
-    "static/media/hangman8.svg": "/galgenraten/static/media/hangman8.de9bc8a72cd69a69704c.svg",
-    "static/media/hangman7.svg": "/galgenraten/static/media/hangman7.fc8093a304874107d751.svg",
-    "index.html": "/galgenraten/index.html",
-    "static/media/hangman6.svg": "/galgenraten/static/media/hangman6.aed3c5ac7c015541b00e.svg",
-    "static/media/hangman5.svg": "/galgenraten/static/media/hangman5.23734058cab9fe7ef1d7.svg",
-    "static/media/hangman4.svg": "/galgenraten/static/media/hangman4.0fbda4d5caf13f4b6c33.svg",
-    "static/media/hangman3.svg": "/galgenraten/static/media/hangman3.71ff42d93448de3eb1a8.svg",
-    "static/media/hangman2.svg": "/galgenraten/static/media/hangman2.9e1c2cb39a7a33fbba04.svg",
-    "static/media/hangman1.svg": "/galgenraten/static/media/hangman1.69c654cbbff7f2aca013.svg",
-    "static/media/hangman0.svg": "/galgenraten/static/media/hangman0.16506da3a6f7ad63ce0f.svg",
-    "main.7d9c5500.css.map": "/galgenraten/static/css/main.7d9c5500.css.map",
-    "main.8817e9ce.js.map": "/galgenraten/static/js/main.8817e9ce.js.map"
+    "main.css": "/hangman/static/css/main.7d9c5500.css",
+    "main.js": "/hangman/static/js/main.138121cb.js",
+    "static/media/hangman9.svg": "/hangman/static/media/hangman9.5c9075f0ef2ef244d3b6.svg",
+    "static/media/hangman8.svg": "/hangman/static/media/hangman8.de9bc8a72cd69a69704c.svg",
+    "static/media/hangman7.svg": "/hangman/static/media/hangman7.fc8093a304874107d751.svg",
+    "static/media/hangman6.svg": "/hangman/static/media/hangman6.aed3c5ac7c015541b00e.svg",
+    "index.html": "/hangman/index.html",
+    "static/media/hangman5.svg": "/hangman/static/media/hangman5.23734058cab9fe7ef1d7.svg",
+    "static/media/hangman4.svg": "/hangman/static/media/hangman4.0fbda4d5caf13f4b6c33.svg",
+    "static/media/hangman3.svg": "/hangman/static/media/hangman3.71ff42d93448de3eb1a8.svg",
+    "static/media/hangman2.svg": "/hangman/static/media/hangman2.9e1c2cb39a7a33fbba04.svg",
+    "static/media/hangman1.svg": "/hangman/static/media/hangman1.69c654cbbff7f2aca013.svg",
+    "static/media/hangman0.svg": "/hangman/static/media/hangman0.16506da3a6f7ad63ce0f.svg",
+    "main.7d9c5500.css.map": "/hangman/static/css/main.7d9c5500.css.map",
+    "main.138121cb.js.map": "/hangman/static/js/main.138121cb.js.map"
   },
   "entrypoints": [
     "static/css/main.7d9c5500.css",
-    "static/js/main.8817e9ce.js"
+    "static/js/main.138121cb.js"
   ]
 }
