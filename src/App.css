@@ -158,10 +158,7 @@ main {
   transition: all 1s ease-in-out;
   z-index: 10;
 }
-.play-again-btn:hover {
-  aspect-ratio: 5/1;
-  width: min(50%, 400px);
-}
+
 .play-again-btn.visible {
   bottom: 5%;
 }

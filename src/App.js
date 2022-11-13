@@ -20,7 +20,8 @@ function App() {
   }
   async function startGameWithRandomWord() {
     const randomGuessWord = await Axios.get('https://germanwordsapi.cyclic.app/randomword')
-    setGuessWord(randomGuessWord)
+    console.log(randomGuessWord)
+    setGuessWord(randomGuessWord.data)
     setGameStarted(true)
   }
   function restartGame() {
